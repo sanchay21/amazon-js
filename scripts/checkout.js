@@ -9,7 +9,6 @@ cart.forEach((cartItem)=>{
     products.forEach((product)=>{
         if(product.id === productId){
             matchingProduct = product;
-            console.log(matchingProduct);
         }
     });
 
